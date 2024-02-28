@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Registration Form.css">
+</head>
+<body>
+    
+<section>
+    <header>
+        <h1><u class="u">Registration Form</u></h1>
+    </header>
+    <div class="contenor">
+        
+    <p>Please fill out this form with the required information</p>
+    <div>
+    <table align="center">
+        <tr>
+            <td>
+        <form action="" align="left">
+                <div>
+                    <label for="fname">Enter Your First Name<span>*</span>:</label><br>
+                    <input type="text" name="name" id="fname" required><br><br>
+                    <label for="lname">Enter Your Last Name<span>*</span>:</label><br>
+                    <input type="text" name="name" id="lname" required><br><br>
+                    <label for="email">Enter Your Email<span>*</span>:</label><br>
+                    <input type="email" name="email" id="email" required><br><br>
+                    <label for="password">Create a New Password<span>*</span>:</label><br>
+                    <input type="password" name="" id="password" required><br><br>
+                </div>
+                <div>
+                    <hr>
+                    <div>
+                    <p>Account type<span>*</span>(required)</p>
+                    <input type="radio" name="radio" id="Personal" required>
+                    <label for="Personal" >Personal</label><br>
+                    <input type="radio" name="radio" id="Business" required>
+                    <label for="Business" class="bussiness">Business</label><br>
+                    </div>
+                </div><br>
+                <hr>
+                <div>
+                    <div class="profile">
+                      
+                    <label for="file">Upload a profile Picture<span>*</span>:</label><br>
+                    <input type="file" name="file" id="file" class="file" required><br>
+                    
+                    </div>
+
+                    <div class="age">
+                    <label for="age">Input your age<span>*</span>:</label><br>
+                    <input type="number" name="age" id="age" min="13" max="30" required><br>
+                    </div>
+                    <div class="about">
+                    <label for="about">How did you hear about us?(Optional)</label><br>
+                    <select name="about" id="about" class="select">
+                        <option value="select one">(select one)</option>
+                        <option value="youtube">YouTube</option>
+                        <option value="News">News</option>
+                        <option value="friends">Friends</option>
+                        <option value="school">School</option>
+                        <option value="collage">Collage</option>
+                    </select>
+                    </div> 
+                    <div class="bio">
+                    <label for="bio">Provide a bio:</label><br>
+                    <textarea name="bio" id="" cols="40" rows="1" >I like coding on the beach...</textarea><br>
+                    </div>
+                </div>
+                
+                
+        </form>
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <div>
+        <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+        <label for="checkbox">I accept the <a href="">terms and conditions</a></label><br>
+        </div>
+        <label for="submit"></label>
+        <input type="submit" name="Submit"  placeholder="Submit" >
+    </footer>
+    </div>
+        
+    </div>
+    
+    </div>
+</section>
+</body>
+</html>
