@@ -1,0 +1,51 @@
+.one{
+    border: 30px solid rgb(3, 9, 29);
+    width: 520px;
+    height: 520px;
+    border-radius: 400px;
+    padding: 5px;
+    background-color: rgb(42, 140, 165);
+    
+}
+body{
+    text-align: center;
+}
+:root{
+    text-align: center;
+    background-color: darkslateblue;
+    direction: inherit;
+}
+.two{
+    background-color: rgb(114, 8, 96);
+    padding: 5px;
+    height: 470px;
+    width: 470px;
+    margin: 20px;
+    border-radius:405px;
+}
+.two-one{
+    background-color: rgb(51, 255, 0);
+    margin: 5px;
+   border-radius: 400px;
+   width: 150px;
+    
+   height: 150px;
+}
+.two-two{
+    background-color:yellow;
+    margin: 5px;
+    width: 150px;
+    
+    height: 150px;
+}
+.two-three{
+    background-color: rgb(255, 72, 0);
+    margin: 5px;
+    
+    width: 150px;
+
+    height: 150px;
+}
+.two-one,.two-two,.two-three{
+    border-radius: 400px;
+}
