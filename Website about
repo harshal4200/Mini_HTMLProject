@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://kit.fontawesome.com/bda8fbc1fe.js" crossorigin="anonymous"></script>
+        <title>Explore World</title>
+    </head>
+<body>
+  
+    <nav class="navbar bg-dark">
+        <div class="container">
+            <h1 class="logo lg-heading text-light" >HCI</h1>
+             <ul class="navitem">
+                <li class="nav-items"><a href="./index.html">Home</a></li>
+                <li class="nav-items"><a href="./about.html">About</a></li>
+               
+            </ul>
+        </div>
+       
+    </nav>
+   <section class="container1">
+    
+        <h1 class="about">about us</h1>
+        <p class="about-discription">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas commodi consequatur facere ducimus dolor molestias labore. Harum obcaecati magni saepe libero? Unde, pariatur aliquid veniam exercitationem quo cum laudantium nostrum dolore doloribus eligendi, optio ab ut odit voluptatem mollitia totam sapiente eveniet placeat ratione excepturi obcaecati! Voluptatibus omnis nihil laboriosam?
+        </p>
+        <div class="list text-gray">
+            <ul class="left">
+                
+                <li class="one"><span><i class="fa-solid fa-check"></i></span> Lorem, ipsum dolor.</li>
+                <li class="two"><span><i class="fa-solid fa-check"></i></span> Lorem, ipsum dolor.</li>
+                <li class="three"><span><i class="fa-solid fa-check"></i></span> Lorem, ipsum dolor.</li>
+            </ul>
+            </div>
+        <div class="list text-gray">
+            <ul class="right">
+                <li class="one"><span><i class="fa-solid fa-check"></i></span> Lorem, ipsum dolor.</li>
+                <li class="two"><span><i class="fa-solid fa-check"></i></span> Lorem, ipsum dolor.</li>
+                <li class="three"><span><i class="fa-solid fa-check"></i></span> Lorem, ipsum dolor.</li>
+            </ul>
+        </div>
+       <br>
+        <div class="counts">
+            <div class="count-item item1">
+                <span>2500</span>
+                <p>Tralveled</p>
+            </div>
+            <div class="count-item item2">
+                <span>500</span>
+                <p>Place</p>
+            </div>
+            <div class="count-item item3">
+                <span>400</span>
+                <p>Guid</p>
+            </div>
+            <div class="count-item item4">
+                <span>20</span>
+                <p>Sport</p>
+            </div>
+            <div class="banner">
+            <div class="p1">
+               <p>What are you waiting for, reach us right now.</p>
+            </div>
+            <div class="contact">
+                <a href="contact.html">Contact us</a>
+            </div>
+            </div>
+   </section>
+  
+</body>
+</html>
