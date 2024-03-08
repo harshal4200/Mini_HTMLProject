@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/bda8fbc1fe.js" crossorigin="anonymous"></script>
+    <title>Explore World</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo lg-heading text-light" >HCI</h1>
+                 <ul class="navitem">
+                    <li class="nav-items"><a href="./index.html">Home</a></li>
+                    <li class="nav-items"><a href="./about.html">About</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <div class="headercontent">
+            <h1 class="main"><span>🚀</span>Explore the World <span>🚀</span></h1>
+            <p class="text-light">Live your life with Joy and Exploring the World, have fun and travel</p>
+            <a href="#explore" class="button primary btn">Start Travelling</a>
+        </div>
+    </header>
+    <section class="showcase" id="explore">
+        <div class="container">
+           <div class="row row1">
+                <div class="img-box">
+                    <img src="./img/Deganwy2.jpg" alt="Image">
+                </div>
+                <div class="text-box">
+                    <h1>Deganvy, u.k</h1>
+                    <p class="gray">Deganwy (Middle Welsh Degannwy, Brythonic *Decantouion) is a town and electoral ward in Conwy County Borough in Wales with a population of 3,936 (2011). It lies in the Creuddyn Peninsula alongside Llandudno (to the north) and Rhos-on-Sea (to its east). Historically part of Caernarfonshire, the peninsula is in a region of north Wales where as many as 1 in 3 of residents are able to speak Welsh.</p>
+                    <p class="gray">Access to our pontoons is only available via a security key fob which all berth holders are provided with giving you peace of mind that your boat will be safe and secure when you are not here.</p>
+                    
+                    <p><a href="about.html" class="more btn">more</a></p>
+                </div>
+           </div>
+           <div class="row row2">
+                <div class="img-box">
+                    <img src="./img/egypt.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h1>Desert, egypt</h1>
+                    <p class="gray">The Western Desert of Egypt is an area of the Sahara that lies west of the river Nile, up to the Libyan border, and south from the Mediterranean Sea to the border with Sudan. It is named in contrast to the Eastern Desert which extends east from the Nile to the Red Sea.</p>
+                    <p class="gray">The region is described by one writer as "a plateau standing on average some 500 feet [150 m] above sea level, barren, rubble- and boulder-strewn, dark brown in colour, occasionally dotted with scrub, and, at first sight, flat".</p>
+                    <p ><a href="about.html" class="more btn">More</a></p>
+                </div>
+           </div>
+         <div>
+           
+    </section>
+    <section class="feature">
+        <div class="container">
+            <div class="wraper">
+                <div class="box boxone">
+                    <i class="fa-solid fa-route fa-2x text-red"></i>
+                    <h2>Adventurous</h2>
+                    <p>Adventures may be activities with danger such as traveling, exploring, skydiving, mountain climbing, scuba diving, Lorem ipsum dolor sit amet, this is well get experience. </p>
+                </div>
+                <div class=" box boxtwo">
+                    <i class="fa-solid fa-strikethrough fa-2x"></i>
+                    <h2>Less price</h2>
+                    <p> Cheap usually suggests shoddiness, inferiority, showy Lorem ipsum dolor sit amet. imitation, complete unworthiness, and the like: a cheap kind of fur. </p>
+                </div>
+                <div class="box boxthree">
+                    <i class="fa-solid fa-user-check fa-2x text-red"></i>
+                    <h2>Experience</h2>
+                    <p>I have some strong work experience that will help me .So this is all about ,with this job if I am successful. Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <footer class="icons">
+       <div class="socialmedia">
+        <a href="https://www.linkedin.com/in/theharshalingle/">
+            <i class="fa-brands fa-linkedin fa-2x linkedin"></i>
+        </a>
+        <a href="https://github.com/harshal4200">
+             <i class="fa-brands fa-github fa-2x github"></i>
+        </a>
+        <a href="https://www.instagram.com/codefine_/">
+            <i class="fa-brands fa-instagram fa-2x instagram"></i>
+        </a>
+       
+       </div>
+       <p class="p">Explore World &copy; All Right Reserved</p>
+    </footer>
+    
+        
+    </a>
+</body>
+</html>
